@@ -1,0 +1,26 @@
+
+input {
+    border: 1px solid;
+    padding: 0.5rem;
+    width: 250px;
+    border-radius: 25px;
+
+  }
+
+.suggestions {
+    border: 1px solid;
+    
+    list-style: none;
+    margin-top: 0;
+    max-height: 150px;
+    overflow-y: auto;
+    padding-left: 0;
+    width: calc(250px + 1rem);
+    border-radius: 5px;
+  }
+
+  .suggestion-active,
+.suggestions li:hover {
+  background-color: #bbcccc;
+  cursor: pointer;
+}
